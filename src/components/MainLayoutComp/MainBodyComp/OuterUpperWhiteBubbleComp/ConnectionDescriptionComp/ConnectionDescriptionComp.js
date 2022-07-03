@@ -2,6 +2,8 @@ import React from 'react';
 
 import styles from './ConnectionDescriptionComp.module.css';
 
+import xButtonGraphic from '../../../../../assets/xicon.png';
+
 const ConnectionDescriptionComp = (props) => {
 
     return (<div className={styles.connectionDescriptionCompContainer}>
@@ -53,7 +55,13 @@ const ConnectionDescriptionComp = (props) => {
             </div>
         </div>
         <div className={styles.findClientsInnerBubbleContainer}>
-
+            <p>
+                <strong>Find potential clients</strong> by showcasing
+                the services you provide
+            </p>
+            <span>Get started</span>
+            <img src={xButtonGraphic} className={styles.xButtonGraphicStyle}>
+            </img>
         </div>
     </div>)
 }
