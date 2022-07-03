@@ -22,7 +22,9 @@ const OuterLowerWhiteBubbleComp = (props) => {
             }} src={eyeGraphic}></img>
             <span
                 style={{
-                    color: '#656566'
+                    color: '#656566',
+                    marginLeft: '0.2rem',
+                    fontSize: '0.9rem'
                 }}>Private to you</span>
         </div>
         <HighlightBubbleComp></HighlightBubbleComp>
