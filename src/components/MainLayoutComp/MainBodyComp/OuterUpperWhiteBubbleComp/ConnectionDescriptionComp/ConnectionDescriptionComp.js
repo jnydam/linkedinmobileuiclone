@@ -5,21 +5,27 @@ import styles from './ConnectionDescriptionComp.module.css';
 const ConnectionDescriptionComp = (props) => {
 
     return (<div className={styles.connectionDescriptionCompContainer}>
-        <span style={{ marginLeft: '1.1rem'}}>181 connections</span>
+        <span style={{ 
+            marginLeft: '1.1rem',
+            color: '#0a66c0'}}>181 connections</span>
         <div className={styles.editButtonRowContainer}>
             <div style={{
                 display: 'flex',
                 flex: 6,
-                backgroundColor: 'grey'
+                backgroundColor: 'grey',
+                alignItems: 'center',
+                justifyContent: 'center'
             }}>
-                <button>Open to</button>
+                <button className={styles.openToButtonStyle}>Open to</button>
             </div>
             <div style={{
                 display: 'flex',
                 flex: 6,
-                backgroundColor: 'grey'
+                backgroundColor: 'grey',
+                alignItems: 'center',
+                justifyContent: 'center'
             }}>
-                <button>Add section</button>
+                <button className={styles.addSectionButtonStyle}>Add section</button>
             </div>
             <div style={{
                 display: 'flex',
@@ -35,6 +41,7 @@ const ConnectionDescriptionComp = (props) => {
                     height: '2.5rem',
                     width: '2.5rem',
                     borderRadius: '1.25rem',
+                    border: '1px solid #838383',
                     overflow: 'hidden',
                     alignItems: 'center',
                     justifyContent: 'center'
@@ -44,6 +51,9 @@ const ConnectionDescriptionComp = (props) => {
                     <div className={styles.smallDottedButtonStyle}></div>
                 </button>
             </div>
+        </div>
+        <div className={styles.findClientsInnerBubbleContainer}>
+
         </div>
     </div>)
 }
