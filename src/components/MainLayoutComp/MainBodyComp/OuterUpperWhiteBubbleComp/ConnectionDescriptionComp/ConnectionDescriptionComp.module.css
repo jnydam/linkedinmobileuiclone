@@ -1,4 +1,22 @@
 .connectionDescriptionCompContainer {
     display: flex;
-    
+    flex-direction: column;
+    background-color: violet;
+    height: 10rem;
+}
+
+.editButtonRowContainer {
+    display: flex;
+    height: 3rem;
+    background-color: yellow;
+    width: 100%;
+}
+
+.smallDottedButtonStyle {
+    display: flex;
+    height: 0.2rem;
+    width: 0.2rem;
+    border-radius: 0.1rem;
+    background-color: black;
+    margin-right: 0.1rem;
 }
