@@ -1,0 +1,17 @@
+.largeHeadshotCompContainer {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.headshotGraphicStyle {
+    display: flex;
+    height: 9.5rem;
+    width: 9.5rem;
+    border-radius: 4.75rem;
+}

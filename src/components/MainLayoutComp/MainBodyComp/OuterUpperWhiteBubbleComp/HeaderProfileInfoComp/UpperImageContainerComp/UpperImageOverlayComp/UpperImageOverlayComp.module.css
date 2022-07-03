@@ -13,6 +13,9 @@
     height: 100%;
     flex: 2;
     background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
 }
 
@@ -21,5 +24,41 @@
     height: 100%;
     flex: 2;
     background-color: red;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.cameraButtonRowContainer {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.pencilGraphicStyle {
+    display: flex;
+    height: 100%;
+}
+
+.cameraCircleContainer {
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 1.25rem;
+    background-color: white;
+    margin-right: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pencilIconRowContainer {
+    display: flex;
+    height: 3rem;
+    background-color: brown;
+    margin-bottom: 2.2rem;
+    justify-content: flex-end;
 }

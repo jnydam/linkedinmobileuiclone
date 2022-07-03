@@ -1,9 +1,17 @@
 import React from 'react';
 
+import styles from './LargeHeadshotComp.module.css';
+
+import nydamHeadshotGraphic from '../../../../../../../../assets/nydamHeadshot.jpeg';
+
+import SmallPlusCircleComp from '../SmallPlusCircleComp/SmallPlusCircleComp';
+
 const LargeHeadshotComp = (props) => {
 
     return (<div className={styles.largeHeadshotCompContainer}>
-        <span>This is the large headshot comp</span>
+        <img className={styles.headshotGraphicStyle} src={nydamHeadshotGraphic}>
+        </img>
+        <SmallPlusCircleComp></SmallPlusCircleComp>
     </div>)
 }
 
