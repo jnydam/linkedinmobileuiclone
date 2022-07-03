@@ -1,0 +1,13 @@
+.highlightBubbleCompContainer {
+    display: flex;
+    width: 93%;
+    border: 1px solid grey;
+    height: 7rem;
+    margin-left: 1.1rem;
+    border-radius: 0.7rem;
+    border: 1px solid #ebeceb;
+}
+
+.headerHorizontalCompContainer {
+    display: flex;
+}
