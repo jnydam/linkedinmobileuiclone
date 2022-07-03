@@ -1,0 +1,25 @@
+.upperImageOverlayCompContainer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.leftSideOverlayContainer {
+    display: flex;
+    height: 100%;
+    flex: 2;
+    background-color: yellow;
+
+}
+
+.rightSideOverlayContainer {
+    display: flex;
+    height: 100%;
+    flex: 2;
+    background-color: red;
+
+}

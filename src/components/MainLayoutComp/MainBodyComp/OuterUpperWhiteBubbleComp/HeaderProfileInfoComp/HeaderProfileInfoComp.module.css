@@ -1,0 +1,6 @@
+.headerProfileInfoCompContainer {
+    display: flex;
+    height: 100%;
+    background-color: orange;
+    width: 100%;
+}

@@ -1,9 +1,12 @@
 import React from 'react';
 
+import styles from './HeaderProfileInfoComp.module.css';
+import UpperImageContainerComp from './UpperImageContainerComp/UpperImageContainerComp';
+
 const HeaderProfileInfoComp = (props) => {
 
     return (<div className={styles.headerProfileInfoCompContainer}>
-        <span>This is the header profile info comp</span>
+        <UpperImageContainerComp></UpperImageContainerComp>
     </div>)
 }
 
