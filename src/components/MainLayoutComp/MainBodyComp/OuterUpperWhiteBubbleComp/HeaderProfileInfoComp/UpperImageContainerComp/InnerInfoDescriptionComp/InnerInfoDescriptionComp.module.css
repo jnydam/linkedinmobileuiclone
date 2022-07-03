@@ -1,0 +1,13 @@
+.innerInfoDescriptionCompContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.workEducationRowContainer {
+    display: flex;
+    height: 1.3rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: violet;
+    align-items: center;
+}

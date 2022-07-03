@@ -1,7 +1,8 @@
 .upperImageContainerCompStyle {
     display: flex;
     background-color: white;
-    height: 40%;
+    min-height: 12rem;
+    height: 12rem;
     width: 100%;
     position: relative;
 }
