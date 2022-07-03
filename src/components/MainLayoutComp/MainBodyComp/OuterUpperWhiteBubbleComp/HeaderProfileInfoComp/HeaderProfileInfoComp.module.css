@@ -1,7 +1,7 @@
 .headerProfileInfoCompContainer {
     display: flex;
     height: 19rem;
-    background-color: orange;
+    /* background-color: orange; */
     width: 100%;
     flex-direction: column;
 }

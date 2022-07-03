@@ -11,11 +11,13 @@ const InnerInfoDescriptionComp = (props) => {
             marginLeft: '1.1rem'
         }}>John Nydam</span>
         <span style={{
-            marginLeft: '1.1rem'
+            marginLeft: '1.1rem',
+            fontSize: '1rem'
         }}>Software Engineer at Fidelity Investments</span>
         <div className={styles.workEducationRowContainer}>
             <span style={{
-                marginLeft: '1.1rem'
+                marginLeft: '1.1rem',
+                fontSize: '0.9rem'
             }}>Fidelity Investments</span>
             <div style={{ 
                 backgroundColor: 'black',
@@ -25,11 +27,12 @@ const InnerInfoDescriptionComp = (props) => {
                 width: '0.2rem', 
                 borderRadius: '0.1rem' }}>
             </div>
-            <span>Brandeis University</span>
+            <span style={{fontSize: '0.9rem'}}>Brandeis University</span>
         </div>
         <span style={{
             marginLeft: '1.1rem',
-            color: '#d3d3d3'
+            fontSize: '0.9rem',
+            color: '#656566'
         }}>Merrimack, New Hampshire, United States</span>
     </div>)
 }

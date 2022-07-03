@@ -9,12 +9,13 @@ const ConnectionDescriptionComp = (props) => {
     return (<div className={styles.connectionDescriptionCompContainer}>
         <span style={{ 
             marginLeft: '1.1rem',
+            fontSize: '0.9rem',
+            fontWeight: 'bold',
             color: '#0a66c0'}}>181 connections</span>
         <div className={styles.editButtonRowContainer}>
             <div style={{
                 display: 'flex',
                 flex: 6,
-                backgroundColor: 'grey',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}>
@@ -23,7 +24,6 @@ const ConnectionDescriptionComp = (props) => {
             <div style={{
                 display: 'flex',
                 flex: 6,
-                backgroundColor: 'grey',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}>
@@ -32,7 +32,6 @@ const ConnectionDescriptionComp = (props) => {
             <div style={{
                 display: 'flex',
                 flex: 2,
-                backgroundColor: 'yellow',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}>
@@ -40,10 +39,11 @@ const ConnectionDescriptionComp = (props) => {
                     display: 'flex',
                     outlineStyle: 'none',
                     borderStyle: 'none',
-                    height: '2.5rem',
-                    width: '2.5rem',
-                    borderRadius: '1.25rem',
+                    height: '2.2rem',
+                    width: '2.2rem',
+                    borderRadius: '1.1rem',
                     border: '1px solid #838383',
+                    backgroundColor: 'white',
                     overflow: 'hidden',
                     alignItems: 'center',
                     justifyContent: 'center'
@@ -55,11 +55,14 @@ const ConnectionDescriptionComp = (props) => {
             </div>
         </div>
         <div className={styles.findClientsInnerBubbleContainer}>
-            <p>
+            <p style={{width: '85%'}}>
                 <strong>Find potential clients</strong> by showcasing
                 the services you provide
             </p>
-            <span>Get started</span>
+            <span style={{
+                marginTop: '0.3rem',
+                color: '#0a66c0',
+                fontWeight: 'bold'}}>Get started</span>
             <img src={xButtonGraphic} className={styles.xButtonGraphicStyle}>
             </img>
         </div>

@@ -1,7 +1,7 @@
 .connectionDescriptionCompContainer {
     display: flex;
     flex-direction: column;
-    background-color: violet;
+    /* background-color: violet; */
     height: 10rem;
     position: relative;
 }
@@ -9,7 +9,7 @@
 .editButtonRowContainer {
     display: flex;
     height: 3rem;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 95%;
     margin-left: 1.1rem;
 }
@@ -63,16 +63,19 @@
     margin-top: 0.5rem;
     height: 4rem;
     font-size: 0.9rem;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     flex-direction: column;
     padding: 0.5rem;
     position: relative;
+    border-radius: 0.7rem;
+    border: 1px solid #ebeceb;
+
 }
 
 .xButtonGraphicStyle {
     display: flex;
     position: absolute;
-    height: 2rem;
-    right: 0.2rem;
+    height: 1.5rem;
+    right: 0.4rem;
     top: 0.2rem;
 }
