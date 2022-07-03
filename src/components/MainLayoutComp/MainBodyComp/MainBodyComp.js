@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from './MainBodyComp.module.css';
+
 const MainBodyComp = (props) => {
 
     return (<div className={styles.mainBodyCompContainer}>

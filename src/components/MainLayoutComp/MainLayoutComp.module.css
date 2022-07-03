@@ -3,6 +3,7 @@
     height: 100vh;
     background-color: white;
     width: 100%;
+    flex-direction: column;
 }
 
 @media (min-width: 800px) {
@@ -12,6 +13,7 @@
         height: 100vh;
         background-color: purple;
         width: 100%;
+        flex-direction: column;
     }
     
 }

@@ -1,0 +1,6 @@
+.mainBodyCompContainer {
+    display: flex;
+    width: 100%;
+    background-color: red;
+    flex: 28;
+}

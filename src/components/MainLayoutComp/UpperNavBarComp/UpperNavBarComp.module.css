@@ -1,0 +1,68 @@
+.upperNavBarCompContainer {
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    flex: 2;
+    overflow: hidden;
+}
+
+.leftImageContainer {
+    display: flex;
+    max-height: 100%;
+    flex: 2;
+    background-color: lightgreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftArrowImageStyle {
+    display: flex;
+    height: 60%;
+
+}
+
+.outerInputContainer {
+    display: flex;
+    flex: 12;
+    height: 100%;
+    background-color: violet;
+    align-items: center;
+    justify-content: center;
+}
+
+.outerGearContainer {
+    display: flex;
+    flex: 2;
+    height: 100%;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+.gearGraphicImageStyle {
+    display: flex;
+    height: 65%;
+}
+
+.searchIconStyle {
+    display: flex;
+    height: 85%;
+}
+
+.inputStyle {
+    display: flex;
+    width: 83%;
+    height: 70%;
+    outline-style: none;
+    border-style: none;
+    background-color: #edf2f6;
+}
+
+.outerInputBoxContainer {
+    display: flex;
+    width: 95%;
+    height: 60%;
+    border-radius: 0.15rem;
+    background-color: #edf2f6;
+    align-items: center;
+}

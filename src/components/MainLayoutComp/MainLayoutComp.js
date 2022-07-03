@@ -1,11 +1,17 @@
 import React from 'react';
+import LowerTabComp from './LowerTabComp/LowerTabComp';
+import MainBodyComp from './MainBodyComp/MainBodyComp';
 
 import styles from './MainLayoutComp.module.css';
+
+import UpperNavBarComp from './UpperNavBarComp/UpperNavBarComp';
 
 const MainLayoutComp = (props) => {
 
     return (<div className={styles.mainLayoutCompContainer}>
-        <span>This is the main layout comp</span>
+        <UpperNavBarComp></UpperNavBarComp>
+        <MainBodyComp></MainBodyComp>
+        <LowerTabComp></LowerTabComp>
     </div>)
 }
 
