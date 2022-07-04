@@ -29,13 +29,12 @@ const HighlightBubbleComp = (props) => {
         <button style={{
             marginTop: '0.7rem',
             fontFamily: 'inherit',
-            height: '1.9rem',
+            height: '1.7rem',
             backgroundColor: 'white',
-            border: '1px solid #838383',
             width: '9rem',
             outlineStyle: 'none',
-            borderStyle: 'none',
-            borderRadius: '1rem'
+            borderRadius: '1rem',
+            border: '1px solid #838383',
         }}>
             <span
                 style={{

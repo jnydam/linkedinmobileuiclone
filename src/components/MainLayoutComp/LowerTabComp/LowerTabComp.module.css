@@ -2,5 +2,15 @@
     display: flex;
     width: 100%;
     flex: 2;
-    background-color: chocolate;
+    /* background-color: chocolate; */
+    overflow: hidden;
+}
+
+.lowerTabDivisionContainer {
+    display: flex;
+    flex: 2;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
