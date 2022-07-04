@@ -3,7 +3,6 @@ import React from 'react';
 import styles from './HighlightBubbleComp.module.css';
 
 import pencilGraphic from '../../../../../assets/pencilrulericon.png'
-
 const HighlightBubbleComp = (props) => {
 
     return (<div className={styles.highlightBubbleCompContainer}>
